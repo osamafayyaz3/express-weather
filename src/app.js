@@ -26,8 +26,6 @@ app.get('', (req, res) => {
     })
 })
 
-//comment
-
 app.get('/about', (req, res) => {
     res.render('about', {
         title: "About me",
